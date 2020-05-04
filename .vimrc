@@ -38,12 +38,12 @@ set autoindent                      " 设置智能缩进
 
 
 " 搜索设置
-set hlsearch						" 设置搜索高亮
+set hlsearch						        " 设置搜索高亮
 exec "nohlsearch"
-set incsearch						" 设置逐字符高亮
-set ignorecase						" 忽略大小写
-set smartcase						" 智能大小写
-noremap <LEADER><CR> :nohlsearch<CR>" 取消所有高亮显示
+set incsearch						        " 设置逐字符高亮
+set ignorecase						        " 忽略大小写
+set smartcase						        " 智能大小写
+noremap <LEADER><CR> :nohlsearch<CR>        " 取消所有高亮显示
 
 " 分屏
 map sl :set splitright<CR>:vsplit<CR>		" 向右分屏
@@ -65,17 +65,17 @@ map <left> :vertical resize-5<CR>
 map <right> :vertical resize+5<CR>
 
 " 标签页
-map tb :tabe<CR>					" 创建新标签页
-map tp :-tabnext<CR>				" 切换上一个标签页
-map tn :+tabnext<CR>				" 切换下一个标签页
-map ts :tab split<CR>				" 用标签页打开当期编辑文件
-map tf :tabfirst<CR>				" 切换到第一个标签页
-map tl :tablast<CR>					" 切换到最后一个
+map tb :tabe<CR>					        " 创建新标签页
+map tp :-tabnext<CR>				        " 切换上一个标签页
+map tn :+tabnext<CR>				        " 切换下一个标签页
+map ts :tab split<CR>				        " 用标签页打开当期编辑文件
+map tf :tabfirst<CR>				        " 切换到第一个标签页
+map tl :tablast<CR>					        " 切换到最后一个
 
-set tabpagemax=15					" VIM默认只能打开10个标签页，这里设置成15
+set tabpagemax=15					        " VIM默认只能打开10个标签页，这里设置成15
 
 " 配色
-color default						" 选择配色方案
+color default						        " 选择配色方案
 
 
 " 文件编码
